@@ -1,0 +1,243 @@
+#login {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+#text-heading{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+#login div{
+    width: 70%;
+    padding: 1%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10px;
+    background: #FEFEFE !important;
+    /* border-radius: 30px; */
+}
+.login1{
+    width: 60%;
+    padding: 1%;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #DDDDDD;
+    /* border-radius: 30px; */
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.2),
+                0 32px 64px -48px rgba(0, 0, 0, 0.7)
+} 
+#button-submit{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}  
+
+#product{
+    transition-duration: 0.5s; 
+}
+#product:hover{
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.2),
+                0 32px 64px -48px rgba(0, 0, 0, 0.7)
+}
+#product-text h3 a{
+    text-decoration: none;
+    color: black;    
+}
+#product-text p a {
+    padding: 30px;
+    background-color: #FEFEFE;
+    color: black;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    transition-duration: 0.5s; 
+    border: solid black;
+
+}
+#product-text p a:hover{
+    background-color: black;
+    border: solid black;
+    color: #FEFEFE;
+}
+
+#quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 40px;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+#button{
+    text-decoration: none;
+    border-radius: 5px;
+    border: thin solid #CCCCCC;
+    color: #333333;
+    display: inline-block; 
+    padding: 8px 20px; 
+    height: 40px; 
+    line-height: 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    box-sizing: border-box;
+    vertical-align: middle; 
+}
+
+#button-input{
+    background-color: #FEFEFE;
+    color: black;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    transition-duration: 0.5s; 
+    border: thin solid black;
+
+    /* padding: 10px 10px;  */
+    line-height: 5px;
+    text-align: center; 
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#button-input:hover{
+    background-color: black;
+    border: thin solid black;
+    color: #FEFEFE;
+}
+
+#pay{
+    margin: auto;
+    justify-content: right;
+    display: flex;
+}
+
+#pagination-product{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+.reportProduct {
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.star-rating {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+    color: #f5b301;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: #f5b301;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+
+.review-form {
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-list {
+    width: 100%;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.review-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.review-item:last-child {
+    border-bottom: none;
+}
+
+.review-item h4 {
+    margin: 0;
+}
+
+.review-item .rating {
+    color: #f5b301;
+}
+
+.reviews{
+    margin-left: 20px;
+}
